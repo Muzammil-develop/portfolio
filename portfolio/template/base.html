@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %} {% endblock title %}
+    </title>
+    <link rel="stylesheet" href="static/style.css">
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Muzzi's Developer </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert- {{ message.tag }} alert-dismissible fade show " role="alert">
+        <strong> {{ message }} </strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {% block body %} {% endblock body %}
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Muzzi Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            CopyRight &copy; Muzziportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

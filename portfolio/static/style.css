@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(12, 12, 63);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    background-color: rgb(9, 9, 87);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(181, 181, 240);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+
+section>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+.rightsection img {
+    height: 300px;
+}
+
+.purple {
+    color: rgb(163, 94, 228);
+}
+
+.container h1{
+    text-align: center;
+}
+
+.about-python {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.left-python div{
+    font-size: 2rem;
+    padding: 10px
+}
+
+.right-python img{
+    height: 110px;;
+}
+
+.about-django {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.left-django img{
+    height: 85px;
+}
+
+.right-django div{
+    font-size: 2rem;
+    padding: 10px
+}
+
+.about-html {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.left-html div{
+    font-size: 2rem;
+    padding: 10px
+}
+
+.right-html img{
+    height: 110px;
+}
+
+.about-css {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.left-css img{
+    height: 110px;
+}
+
+.right-css div{
+    font-size: 2rem;
+    padding: 10px
+}
+
+.about-js {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.left-js div{
+    font-size: 2rem;
+    padding: 10px
+}
+
+.right-js img{
+    height: 110px;
+}
+
+.container img{
+    height: 450px;
+    padding: 40px 85px;
+}
+
+h1 { 
+    text-align: center;
+    padding: 10px;
+}
+
+.contactform {
+    display: grid;
+    justify-content: center;
+}
+
+.contactform div{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 15px;
+}
+
+.contactform div input{
+    border-radius: 5px ;
+}
+
+.btn{
+    padding: 5px;
+    margin: 5px 375px;
+    border-radius: 12px;
+    background-color:#3a3a8d;;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(15 15 52);
+    /* height: 130px; */
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer >div{
+    width: 150px;
+}
+
+.footer ul {    
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-rights{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+
